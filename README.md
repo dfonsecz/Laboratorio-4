@@ -7,6 +7,8 @@
 ## Introducción
 A través de este laboratorio, se aborda tres aspectos importantes en el desarrollo de software, para el programa de C. Estos aspectos son el uso de arreglos, de recursividad y de punteros. Los arreglos son un tipo de dato que brinda ciertas facilidades a la hora de elaboración y ejecución de un programa, ya que permiten contener varios datos dentro de sí. Los punteros permiten la manipulación eficiente de datos en C, ya que es posible tener acceso directo y eficaz a la memoria del sistema [[1]](https://github.com/dfonsecz/Laboratorio-4?tab=readme-ov-file#referencias).
 
+El laboratorio desarrollado consta de dos ejercicios. El primero se centra en el uso de arreglos, y también de la recursividad. Mientras que el segundo incluye también el uso de punteros.
+
 ## Implementación
 ### Arreglos y recursividad
 Este programa recibe un parámetro ingresado por el usuario, el cual debe corresponder a un número entero. El objetivo de este programa es tomar este número entero y compararlo con los números que se encuentran dentro de un arreglo ordenado, el cual se detalla a continuación.
