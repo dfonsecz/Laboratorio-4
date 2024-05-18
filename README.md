@@ -42,5 +42,10 @@ La diferencia es que en vez de cambiar las variables locales, se llama de nuevo 
 ### Arreglos y punteros
 
 ## Resultados
+
+![ej1.c](images/ej1.png)
+
+![ej2.c](images/ej2.png)
+
 ## Conclusiones y recomendaciones
 ## Referencias
