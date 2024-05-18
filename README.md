@@ -19,14 +19,16 @@ Recibe como parámetros el número ingresado por el usuario, el arreglo ordenado
 
 **Búsqueda Binaria**
 
-Recibe como parámetros el número ingresado por el usuario y el arreglo ordenado, pero también un número f. Este número f coincide debe coincidir con el tamaño del arreglo, ya que corresponde a la posición del último número dentro del arreglo. No se solicita un parámetro de la primera función del arreglo ya que se asume que es cero, y la función no es recursiva.
+Recibe como parámetros el número ingresado por el usuario y el arreglo ordenado, pero también un número $f$. Este número f coincide debe coincidir con el tamaño del arreglo, ya que corresponde a la posición del último número dentro del arreglo. No se solicita un parámetro de la primera función del arreglo ya que se asume que es cero, y la función no es recursiva.
 
 Esta función utiliza un loop de while. Se calcula el valor medio entre la posición inicial $0$ y la posición final $f$. Se compara el número ingresado por el usuario, con el valor del arreglo que se encuentra en la posición media $h$.
 
 1. Si se determina que $h$ es mayor, en el siguiente ciclo de while, la posición inicial pasa a ser $h-1$.
 2. Si se determina que $h$ es menor, en el siguiente ciclo de while, la posición final pasa a ser $h+1$.
 
-Búsqueda Binaria Recursiva
+**Búsqueda Binaria Recursiva**
+
+Recibe como parámetros el número ingresado por el usuario, el arreglo ordenado, un número inicial $i$, y un número inicial $f$. Al inicializar esta función por primera vez, se ingresan los parámetros $i = 0$ y $f = size$ (tamaño del arreglo).
 
 ### Arreglos y punteros
 
