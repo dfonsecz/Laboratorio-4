@@ -57,4 +57,5 @@ Al ejecutar el programa e ingresar como argumento el número $4$, el cual se sab
 ![ej2.c](images/ej2.png)
 
 ## Conclusiones y recomendaciones
+1. La recursividad es una herramienta útil para cuando se requiere iterar datos en una función. Sin embargo, es importante ser cuidadoso con definir cuándo acaba esta iteración, ya que de lo contrario existe el riesgo de que el programa entre en un bucle infinito.
 ## Referencias
