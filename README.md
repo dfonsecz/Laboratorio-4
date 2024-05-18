@@ -45,6 +45,8 @@ La diferencia es que en vez de cambiar las variables locales, se llama de nuevo 
 
 ### Arreglos y recursividad
 
+Al ejecutar el programa e ingresar como argumento el número $4$, el cual se sabe de antemano que se encuentra dentro del arreglo, se obtiene el mismo resultado con las tres funciones implementadas. Se encuentra la posición dentro del arreglo de este número. Por otra parte, al ingresar como argumento el número $5$, que no se encuentra dentro del arreglo definido, se imprime un mensaje que indica que este número no se encuentra dentro del arreglo. Esto se puede confirmar en la figura que se presenta a continuación.
+
 ![ej1.c](images/ej1.png)
 
 ### Arreglos y punteros
