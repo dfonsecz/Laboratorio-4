@@ -23,7 +23,7 @@ _**Búsqueda Binaria**_
 
 Recibe como parámetros el número ingresado por el usuario y el arreglo ordenado, pero también un número $f$. Este número f coincide debe coincidir con el tamaño del arreglo, ya que corresponde a la posición del último número dentro del arreglo. No se solicita un parámetro de la primera función del arreglo ya que se asume que es cero, y la función no es recursiva.
 
-Esta función utiliza un loop de _while_. Se calcula el valor medio entre la posición inicial $0$ y la posición final $f$. Se compara el número ingresado por el usuario, con el valor del arreglo que se encuentra en la posición media $h$.
+Esta función utiliza un loop de _while_. Se calcula el valor medio entre la posición inicial $0$ y la posición final $f$. Se compara el número ingresado por el usuario, con el valor del arreglo que se encuentra en la posición media $h$ [[1]](https://github.com/dfonsecz/Laboratorio-4?tab=readme-ov-file#referencias).
 
 1. Si se determina que $h$ es mayor, en el siguiente ciclo de _while_, la posición inicial pasa a ser $h-1$.
 2. Si se determina que $h$ es menor, en el siguiente ciclo de _while_, la posición final pasa a ser $h+1$.
@@ -74,4 +74,8 @@ Al ejecutar este programa, en primer lugar se observan los resultados de usar la
 
 ## Conclusiones y recomendaciones
 1. La recursividad es una herramienta útil para cuando se requiere iterar datos en una función. Sin embargo, es importante ser cuidadoso con definir cuándo acaba esta iteración, ya que de lo contrario existe el riesgo de que el programa entre en un bucle infinito.
+2. Para estos y muchos programas, es importante considerar casos que puedan suceder que hagan que el código no se ejecute correctamente. Durante el desarrollo de este laboratorio fue común obtener errores de segmentación al probar los programas, hasta prevenirlos.
+
+
 ## Referencias
+[1] Khan Academy, “Búsqueda Binaria,” Khan Academy, https://es.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search. 
