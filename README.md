@@ -43,7 +43,11 @@ La diferencia es que en vez de cambiar las variables locales, se llama de nuevo 
 
 ## Resultados
 
+### Arreglos y recursividad
+
 ![ej1.c](images/ej1.png)
+
+### Arreglos y punteros
 
 ![ej2.c](images/ej2.png)
 
