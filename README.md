@@ -6,6 +6,9 @@
 
 ## Introducción
 ## Implementación
+### Arreglos y recursividad
+### Arreglos y punteros
+
 ## Resultados
 ## Conclusiones y recomendaciones
 ## Referencias
