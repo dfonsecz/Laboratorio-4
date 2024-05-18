@@ -11,10 +11,13 @@ Este programa recibe un parámetro ingresado por el usuario, el cual debe corres
 
 $$array = (2, 4, 6, 23, 56, 79)$$
 
-Búsqueda Lineal
-Recibe como parámetros el número ingresado por el usuario, el arreglo ordenado mencionado anteriormente, y el tamaño del arreglo, que se calcula en la función principal. Itera sobre los valores del arreglo, y retorna la posición del número dentro del arreglo que coincide con el número ingresado por el usuario, en caso de que lo haya.
+**Búsqueda Lineal**
+
+Recibe como parámetros el número ingresado por el usuario, el arreglo ordenado mencionado anteriormente, y el tamaño del arreglo, que se calcula en la función principal. Itera sobre los valores del arreglo en orden secuencial, y retorna la posición del número dentro del arreglo que coincide con el número ingresado por el usuario, en caso de que lo haya.
 
 Búsqueda Binaria
+
+Recibe como parámetros el número ingresado por el usuario y el arreglo ordenado, pero también un número f. Este número f coincide debe coincidir con el tamaño del array, 
 
 Búsqueda Binaria Recursiva
 
