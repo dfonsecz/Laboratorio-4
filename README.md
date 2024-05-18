@@ -54,7 +54,9 @@ _**Encontrar máximo**_
 
 Recibe como parámetros un arreglo y el tamaño de este arreglo. Inicialmente se define que el máximo es el número que se encuentra en la posición $0$ del arreglo. Este máximo se almacena en una variable. Posteriormente, se utiliza un ciclo _for_ para iterar por el resto de los valores del arreglo y determinar si alguno es menor que el valor máximo guardado dentro de la variable. Si lo es, se guarda el nuevo valor máximo temporal. Cuando termine el ciclo for, el número máximo absoluto del arreglo será el que está guardado dentro de la variable. Se retorna la posición de este número en el arreglo.
 
-Encontrar mínimo y máximo con punteros
+_**Encontrar mínimo y máximo con punteros**_
+
+Esta función recibe como parámetros el puntero del arreglo, del mínimo y del máximo, y también el tamaño del arreglo. La función itera sobre los elementos del arreglo usando _for_ loop. Inicia desde el segundo elemento (ya que el mínimo y máximo están inicialmente definidos como el primer elemento) hasta el último elemento del arreglo. En el bucle, se compara cada elemento con el valor mínimo y máximo actuales guardados en variables. Si se encuentra un elemento menor que el valor mínimo actual, se actualiza el valor mínimo. Si se encuentra un elemento mayor que el valor máximo actual, se actualiza el valor máximo. Al finalizar el loop, se cuenta con los valores máximo y mínimo.
 
 ## Resultados
 
@@ -65,6 +67,8 @@ Al ejecutar el programa e ingresar como argumento el número $4$, el cual se sab
 ![ej1.c](images/ej1.png)
 
 ### Arreglos y punteros
+
+Al ejecutar este programa, en primer lugar se observan los resultados de usar las dos primeras funciones, que calculan el mínimo y el máximo de manera independiente. Después, se observa el resultado de usar la función para encontrar estos valores simultáneamente con punteros. Los resultados obtenidos coinciden a pesar de que la manera de obtenerlos es diferente.
 
 ![ej2.c](images/ej2.png)
 
