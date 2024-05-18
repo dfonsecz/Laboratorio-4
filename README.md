@@ -28,7 +28,7 @@ Esta función utiliza un loop de while. Se calcula el valor medio entre la posic
 
 **Búsqueda Binaria Recursiva**
 
-Recibe como parámetros el número ingresado por el usuario, el arreglo ordenado, un número inicial $i$, y un número inicial $f$. Al inicializar esta función por primera vez, se ingresan los parámetros $i = 0$ y $f = size$ (tamaño del arreglo).
+Recibe como parámetros el número ingresado por el usuario, el arreglo ordenado, un número inicial $i$, y un número inicial $f$. Al inicializar esta función por primera vez, se ingresan los parámetros $i = 0$ y $f = size$ (tamaño del arreglo). Sin embargo, debido a que esta función debe operar de manera recursiva, estos parámetros cambian conforme se complete cada ciclo de operación de la función.
 
 ### Arreglos y punteros
 
