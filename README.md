@@ -17,7 +17,7 @@ Recibe como parámetros el número ingresado por el usuario, el arreglo ordenado
 
 Búsqueda Binaria
 
-Recibe como parámetros el número ingresado por el usuario y el arreglo ordenado, pero también un número f. Este número f coincide debe coincidir con el tamaño del array, 
+Recibe como parámetros el número ingresado por el usuario y el arreglo ordenado, pero también un número f. Este número f coincide debe coincidir con el tamaño del arreglo, ya que corresponde a la posición del último número dentro del arreglo. No se solicita un parámetro de la primera función del arreglo ya que se asume que es cero, y la función no es recursiva.
 
 Búsqueda Binaria Recursiva
 
