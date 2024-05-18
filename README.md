@@ -46,11 +46,11 @@ $$array = (21, 24, 65, 3, 56, 12, 35, 15)$$
 
 Este programa se compone por tres funciones, aparte de la principal. A continuación se detalla el funcionamiento de estas:
 
-Encontrar mínimo
+_**Encontrar mínimo**_
 
 Recibe como parámetros un arreglo y el tamaño de este arreglo. Inicialmente se define que el mínimo es el número que se encuentra en la posición $0$ del arreglo. Este mínimo se almacena en una variable. Posteriormente, se utiliza un ciclo _for_ para iterar por el resto de los valores del arreglo y determinar si alguno es menor que el valor mínimo guardado dentro de la variable. Si lo es, se guarda el nuevo valor mínimo temporal. Cuando termine el ciclo for, el número mínimo absoluto del arreglo será el que está guardado dentro de la variable. Se retorna la posición de este número en el arreglo.
 
-Encontrar máximo
+_**Encontrar máximo**_
 
 Recibe como parámetros un arreglo y el tamaño de este arreglo. Inicialmente se define que el máximo es el número que se encuentra en la posición $0$ del arreglo. Este máximo se almacena en una variable. Posteriormente, se utiliza un ciclo _for_ para iterar por el resto de los valores del arreglo y determinar si alguno es menor que el valor máximo guardado dentro de la variable. Si lo es, se guarda el nuevo valor máximo temporal. Cuando termine el ciclo for, el número máximo absoluto del arreglo será el que está guardado dentro de la variable. Se retorna la posición de este número en el arreglo.
 
