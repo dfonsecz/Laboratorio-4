@@ -40,6 +40,9 @@ La funcionalidad es similar a la de la función anterior. Se calcula un valor me
 La diferencia es que en vez de cambiar las variables locales, se llama de nuevo a la misma función con los nuevos parámetros.
 
 ### Arreglos y punteros
+Este programa no recibe argumentos de parte del usuario que lo ejecuta. Simplemente se espera su ejecución. En la función principal se define un arreglo desordenado, el cual se presenta a continuación.
+
+$$array = (21, 24, 65, 3, 56, 12, 35, 15)$$
 
 ## Resultados
 
