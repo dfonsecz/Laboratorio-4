@@ -5,7 +5,7 @@
 # Laboratorio-4
 
 ## Introducción
-A través de este laboratorio, se aborda tres aspectos importantes en el desarrollo de software, para el programa de C. Estos aspectos son el uso de arreglos, de recursividad y de punteros. Los arreglos son un tipo de dato que brinda ciertas facilidades a la hora de elaboración y ejecución de un programa, ya que permiten contener varios datos dentro de sí. Los punteros desempeñan un papel crucial en la manipulación eficiente de datos en C, permitiendo un acceso directo y eficaz a la memoria del sistema.
+A través de este laboratorio, se aborda tres aspectos importantes en el desarrollo de software, para el programa de C. Estos aspectos son el uso de arreglos, de recursividad y de punteros. Los arreglos son un tipo de dato que brinda ciertas facilidades a la hora de elaboración y ejecución de un programa, ya que permiten contener varios datos dentro de sí. Los punteros permiten la manipulación eficiente de datos en C, ya que es posible tener acceso directo y eficaz a la memoria del sistema [[1]](https://github.com/dfonsecz/Laboratorio-4?tab=readme-ov-file#referencias).
 
 ## Implementación
 ### Arreglos y recursividad
@@ -23,7 +23,7 @@ _**Búsqueda Binaria**_
 
 Recibe como parámetros el número ingresado por el usuario y el arreglo ordenado, pero también un número $f$. Este número f coincide debe coincidir con el tamaño del arreglo, ya que corresponde a la posición del último número dentro del arreglo. No se solicita un parámetro de la primera función del arreglo ya que se asume que es cero, y la función no es recursiva.
 
-Esta función utiliza un loop de _while_. Se calcula el valor medio entre la posición inicial $0$ y la posición final $f$. Se compara el número ingresado por el usuario, con el valor del arreglo que se encuentra en la posición media $h$ [[1]](https://github.com/dfonsecz/Laboratorio-4?tab=readme-ov-file#referencias).
+Esta función utiliza un loop de _while_. Se calcula el valor medio entre la posición inicial $0$ y la posición final $f$. Se compara el número ingresado por el usuario, con el valor del arreglo que se encuentra en la posición media $h$ [[2]](https://github.com/dfonsecz/Laboratorio-4?tab=readme-ov-file#referencias).
 
 1. Si se determina que $h$ es mayor, en el siguiente ciclo de _while_, la posición inicial pasa a ser $h-1$.
 2. Si se determina que $h$ es menor, en el siguiente ciclo de _while_, la posición final pasa a ser $h+1$.
@@ -78,4 +78,5 @@ Al ejecutar este programa, en primer lugar se observan los resultados de usar la
 
 
 ## Referencias
-[1] Khan Academy, “Búsqueda Binaria,” Khan Academy, https://es.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search. 
+[1] L. Ortiz, “Manual de Referencia de C++ Parte IV variables punteros,” Manual de referencia de C++  Parte IV  Variables Punteros, https://www.uv.mx/personal/edbenitez/files/2011/08/apuntadores.pdf (accessed May 18, 2024). 
+[2] Khan Academy, “Búsqueda Binaria,” Khan Academy, https://es.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search. 
