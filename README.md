@@ -23,8 +23,8 @@ Recibe como parámetros el número ingresado por el usuario y el arreglo ordenad
 
 Esta función utiliza un loop de while. Se calcula el valor medio entre la posición inicial $0$ y la posición final $f$. Se compara el número ingresado por el usuario, con el valor del arreglo que se encuentra en la posición media $h$.
 
-1. Si se determina que h es mayor, en el siguiente ciclo de while, la posición inicial pasa a ser $h-1$.
-2. Si se determina que h es menor, en el siguiente ciclo de while, la posición final pasa a ser $h+1$.
+1. Si se determina que $h$ es mayor, en el siguiente ciclo de while, la posición inicial pasa a ser $h-1$.
+2. Si se determina que $h$ es menor, en el siguiente ciclo de while, la posición final pasa a ser $h+1$.
 
 Búsqueda Binaria Recursiva
 
